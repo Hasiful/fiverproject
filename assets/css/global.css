@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box !important;
+    font-family: 'Proxima Nova', sans-serif;                                         
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+a:hover{
+    color: unset;
+}
+
+:root{
+    --firstColor: #27c7cd;
+    --secondColor: #666666;
+    --textColor: #4b4b4b;
+}
+
+.section-padding{
+    padding: 30px 0px;
+}

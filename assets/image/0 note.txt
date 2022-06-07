@@ -1,0 +1,17 @@
+convert JPG to HTML + bootstrap.
+
+Two pages with following features:
+- slider (only on home.png)
+- expandable menu
+- contact form (no php required)
+- scroll to top
+- responsive
+
+Products.png
+- same footer as in home
+- on product selector, one that is with blue background shows hover effect.
+
+If you cannot extract image from pngs (transparency or something), please just use any placeholder of appropriate size.
+
+Font is:
+https://www.cdnfonts.com/proxima-nova-2.font
