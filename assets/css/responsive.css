@@ -1,7 +1,114 @@
+
+@media(min-width: 570px){
+    .contact_form_box_inner{
+        flex-direction: row;
+    }
+    
+    .conact_form_item{
+        width: 50%;
+    }
+
+}
 @media(min-width: 767px){
     .about_section_title{
         text-align: left;
     }
+
+    .health_section_content_left_item{
+        flex-direction: row;
+        align-items: flex-start;
+        font-size: 22px;
+    }
+
+    .helth_content_right_text {
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .vedio_section_top_item {
+        text-align: left;
+    }
+
+    .vedio_section_top_item_content_title {
+        text-align: left;
+    }
+
+    .title_shape_image {
+        display: block;
+    }
+
+    .row_certificet {
+        margin-top: -33px;
+    }
+
+    .about_content_text {
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .certificet_content_text{
+        font-size: 18px;
+    }
+
+    .certificet_content_item{
+        margin-bottom: 40px;
+    }
+
+    .certificet_content_text {
+        text-align: left;
+    }
+
+    .contact_banner_content_text {
+        font-size: 40px;
+    }
+
+    .contact_banner_content {
+        text-align: left;
+        padding-top: 220px;
+    }
+
+    .contact_left_content_item_text p{
+        font-size: 18px;
+    }
+
+    .contact_left_title{
+        text-align: left;
+    }
+
+    .contact_left_content_item {
+        justify-content: flex-start;
+    }
+
+    .contact_map{
+        width: 90%;
+    }
+
+    .contact_form_box_inner{
+        flex-direction: column;
+    }
+    
+    .conact_form_item{
+        width: 100%;
+    }
+
+    .contact_form_box {
+        margin-top: -450px;
+    }
+
+    .footer_logo {
+        text-align: left;
+    }
+
+    .footer_social_icon ul {
+   
+        justify-content: flex-start;
+    }
+
+    .footer_nav_item {
+        text-align: left;
+        margin-top: 0px;
+    }
+    
 }
 
 @media(min-width: 992px){
@@ -18,6 +125,43 @@
         padding: 50px 0px;
     }
 
+    .quality_item_content.text-center {
+        font-size: 18px;
+    }
+
+    .service_item_content{
+       font-size: 18px;
+    }
+    
+    .service_item_content_text{
+        font-size: 18px;
+    }
+
+    .video_section_left_image {
+        padding: 0px 10px;
+    }
+    
+    .video_section_popup_image{
+        padding: 0px 30px;
+    }
+
+    .contact_banner_content_text {
+        font-size: 50px;
+    }
+
+
+    .contact_form_box_inner{
+        flex-direction: row;
+    }
+    
+    .conact_form_item{
+        width: 50%;
+    }
+
+    .contact_form_box{
+        margin-top: -335px;
+    }
+
 }
 
 
@@ -30,6 +174,15 @@
     .about_image{
         width: 80%;
     }
+
+    .contact_banner_content_text {
+        font-size: 54px;
+    }
+
+    .contact_left_content_item_text p{
+        font-size: 20px;
+    }
+
 
 }
 

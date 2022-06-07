@@ -13,9 +13,6 @@ ul{
     list-style: none;
 }
 
-a:hover{
-    color: unset;
-}
 
 :root{
     --firstColor: #27c7cd;
