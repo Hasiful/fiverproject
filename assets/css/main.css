@@ -625,12 +625,13 @@
     color: #2aaae1;
 }
 
-.product_item{
+.product_item {
     border: 2px solid #e1e6eb;
     padding: 30px 20px;
     background-color: #fefefe;
     position: relative;
     overflow: hidden;
+    margin-top: 20px;
 }
 
 .product_item::after{
