@@ -8,6 +8,10 @@
         width: 50%;
     }
 
+    .product_banner_title{
+        font-size: 50px;
+    }
+
 }
 @media(min-width: 767px){
     .about_section_title{
@@ -108,7 +112,47 @@
         text-align: left;
         margin-top: 0px;
     }
+
+    .product_banner_content {
+        text-align: left;
+    }
     
+    .product_banner_button {
+      justify-content: flex-start;
+    }
+
+    .product_banner_title {
+        font-size: 70px;
+    }
+
+    .call_to_action_title {
+        font-size: 50px;
+    }
+    .caa_to_action{
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    .certificet_content_title{
+        text-align: left;
+    }
+
+    .product_about_content_title{
+        text-align: left;
+    }
+
+    .product_about_section_content {
+        margin-top: 0px;
+    }
+
+    .workspace_section_content_title {
+      
+        text-align: left;
+    }
+
+    .table-primary {
+        font-size: 18px;
+    }
 }
 
 @media(min-width: 992px){
@@ -162,6 +206,18 @@
         margin-top: -335px;
     }
 
+    .product_banner_title {
+        font-size: 80px;
+    }
+
+    .call_to_action_title {
+        font-size: 54px;
+    }
+
+    .product_about_section_image {
+        margin-right: 25px;
+    }
+
 }
 
 
@@ -183,8 +239,24 @@
         font-size: 20px;
     }
 
+    .product_banner_title{
+        font-size: 85px;
+    }
+
+    .call_to_action_title {
+        font-size: 64px;
+    }
+
+    .caa_to_action{
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
+
 
 }
+
+
+
 
 @media(max-width: 991px){
     ul.navbar-nav.ms-auto {
