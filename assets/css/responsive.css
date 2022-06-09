@@ -1,5 +1,10 @@
 
 @media(min-width: 570px){
+
+    .health_section_content_left_item{
+        padding: 0px 20px;
+    }
+
     .contact_form_box_inner{
         flex-direction: row;
     }
@@ -22,6 +27,8 @@
         flex-direction: row;
         align-items: flex-start;
         font-size: 22px;
+        gap: 10px;
+        padding: 20px;
     }
 
     .helth_content_right_text {
@@ -129,8 +136,8 @@
         font-size: 50px;
     }
     .caa_to_action{
-        padding-top: 20px;
-        padding-bottom: 40px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 
     .certificet_content_title{
@@ -152,6 +159,24 @@
 
     .table-primary {
         font-size: 18px;
+    }
+
+    .about_image{
+        margin-bottom: 0px;
+    }
+
+    .health_section_content_left {
+        flex-wrap: wrap;
+    }
+
+
+    .helth_left_content_text {
+        margin-top: 20px;
+    }
+
+    .helth_content_button {
+        margin-bottom: 0px;
+        padding-top: 20px;
     }
 }
 
@@ -218,6 +243,15 @@
         margin-right: 25px;
     }
 
+    .header_nav {
+        display: block;
+    }
+
+    .mobile_toggoler {
+        display: none;
+    }
+
+
 }
 
 
@@ -248,10 +282,23 @@
     }
 
     .caa_to_action{
-        padding-top: 25px;
-        padding-bottom: 50px;
+        padding-top: 37px;
+        padding-bottom: 37px;
     }
 
+    .header_nav ul li a{
+        font-size: 16px;
+    }
+
+    .quality_item_content.text-center {
+        font-size: 20px;
+    }
+
+
+    .prduct_section_title {
+   
+        margin-bottom: 30px;
+    }
 
 }
 

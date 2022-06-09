@@ -20,6 +20,21 @@ ul{
     --textColor: #4b4b4b;
 }
 
-.section-padding{
-    padding: 30px 0px;
+.section-padding {
+    padding: 40px 0px;
+}
+
+a#scrollUp {
+    height: 40px;
+    width: 40px;
+    background-color: var(--firstColor);
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
 }

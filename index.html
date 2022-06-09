@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
+     <!-- slick slider -->
+     <link rel="stylesheet" href="assets/css/slick-theme.css">
+     <link rel="stylesheet" href="assets/css/slick.css">
     <!-- magnific popup -->
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
     <!-- fontAwesome -->
@@ -28,119 +31,248 @@
     =========================================
     -->
 
-    <header class="navbar navbar-expand-lg navbar-light py-1">
+    <header class="header_section">
         <div class="container">
-            <a href="" class="navbar-brand pe-3"><img src="assets/image/headerlogo-removebg-preview.png" alt=""></a>
+            <div class="header_section_wrapper">
+                <!-- logo -->
+                <a href="" class="headerlogo">
+                    <img src="assets/image/headerlogo-removebg-preview.png" alt="">
+                </a>
+                
+                <!-- nav -->
+                <div class="header_nav">
+                    <ul>
+    
+                        <!-- item -->
+                        <li class="header_nav_icon">
+                            <a href="#">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
+                                        <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"/>
+                                    </svg>
+                                </span>
+                            </a>
+                        </li>
+    
+                        <!-- item -->
+                        <li>
+                            <a href="">Products and pricing <i class="fa-solid fa-angle-down"></i> </a>
+                            <!-- hover -->
 
-            <button class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#myNav" aria-expanded="false">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                            <ul class="header_Hover_menu">
+                                <li><a class="" data-bs-toggle="dropdown" href="#"> <span>Madicel cryo  chambers</span> <span><i class="fa-solid fa-angle-down"></i></span> </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another</a></li>
+                                        <li><a class="dropdown-item" href="#">Something</a></li>
+                                        <li><a class="dropdown-item" href="#">Separated</a></li>
+                                    </ul>                                  
+                                </li>
+    
+                                <li><a class="" href="#" data-bs-toggle="dropdown"><span>for local crytherapy</span>  <span><i class="fa-solid fa-angle-down"></i></span></a>
+                                
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another</a></li>
+                                        <li><a class="dropdown-item" href="#">Something</a></li>
+                                        <li><a class="dropdown-item" href="#">Separated</a></li>
+                                    </ul>  
+                                </li>
+    
+                                <li><a class="" href="#" data-bs-toggle="dropdown"> <span>for local crytherapy</span>  <span><i class="fa-solid fa-angle-down"></i></span></a>
+                                
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another</a></li>
+                                        <li><a class="dropdown-item" href="#">Something</a></li>
+                                        <li><a class="dropdown-item" href="#">Separated</a></li>
+                                    </ul>  
+                                </li>
+                                
+                                <li><a class="" href="#" data-bs-toggle="dropdown"> <span>for local crytherapy</span>  <span><i class="fa-solid fa-angle-down"></i></span></a>
+                                
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another</a></li>
+                                        <li><a class="dropdown-item" href="#">Something</a></li>
+                                        <li><a class="dropdown-item" href="#">Separated</a></li>
+                                    </ul>
 
-            <div class="navbar-collapse collapse" id="myNav">
-                <ul class="navbar-nav ms-auto">
+                                </li>
+    
+                                <li><a class="" href="#">Dewar vessels</a></li>
+                           </ul>
 
-                    <!-- item -->
-                    <li class="nav-item nav_item_haeder">
-                        <a class="nav-link" href="#">
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
-                                    <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"/>
-                                </svg>
-                            </span>
-                        </a>
-                    </li>
+                        </li>
+    
+                        <!-- item -->
+                        <li>
+                            <a href=""> In stock <i class="fa-solid fa-angle-down"></i> </a>
 
-                    <!-- item -->
-                    <li class="nav-item nav_item_haeder">
-                        <a href="" class="nav-link" data-bs-toggle="dropdown">Products and pricing <i class="fa-solid fa-angle-down"></i> </a>
+                                <!-- hover -->
 
-                        <ul class="dropdown-menu">
-                            <li><a class="" href="#"> <span>Madicel cryo  chambers</span> <span><i class="fa-solid fa-angle-down"></i></span> </a></li>
+                                <ul class="header_Hover_menu">
+                                    <li><a class="" data-bs-toggle="dropdown" href="#"> <span>Madicel cryo  chambers</span> <span><i class="fa-solid fa-angle-down"></i></span> </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another</a></li>
+                                            <li><a class="dropdown-item" href="#">Something</a></li>
+                                            <li><a class="dropdown-item" href="#">Separated</a></li>
+                                        </ul>                                  
+                                    </li>
+        
+                                    <li><a class="" href="#" data-bs-toggle="dropdown"><span>for local crytherapy</span>  <span><i class="fa-solid fa-angle-down"></i></span></a>
+                                    
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another</a></li>
+                                            <li><a class="dropdown-item" href="#">Something</a></li>
+                                            <li><a class="dropdown-item" href="#">Separated</a></li>
+                                        </ul>  
+                                    </li>
+        
+                                    <li><a class="" href="#" data-bs-toggle="dropdown"> <span>for local crytherapy</span>  <span><i class="fa-solid fa-angle-down"></i></span></a>
+                                    
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another</a></li>
+                                            <li><a class="dropdown-item" href="#">Something</a></li>
+                                            <li><a class="dropdown-item" href="#">Separated</a></li>
+                                        </ul>  
+                                    </li>
+                                    
+                                    <li><a class="" href="#" data-bs-toggle="dropdown"> <span>for local crytherapy</span>  <span><i class="fa-solid fa-angle-down"></i></span></a>
+                                    
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another</a></li>
+                                            <li><a class="dropdown-item" href="#">Something</a></li>
+                                            <li><a class="dropdown-item" href="#">Separated</a></li>
+                                        </ul>
+    
+                                    </li>
+        
+                                    <li><a class="" href="#">Dewar vessels</a></li>
+                                </ul>
 
-                            <li><a class="" href="#"><span>for local crytherapy</span>  <span><i class="fa-solid fa-angle-down"></i></span></a></li>
+                        </li>
+    
+                        <!-- item -->
+                        <li>
+                            <a href=""> Service <i class="fa-solid fa-angle-down"></i> </a>
+                        </li>
+    
+                        <!-- item -->
+                        <li>
+                            <a href=""> Info <i class="fa-solid fa-angle-down"></i> </a>
+                        </li>
+    
+                        <!-- item -->
+                        <li>
+                            <a href=""> about us  </a>
+                        </li>
+    
+                        <!-- item -->
+                        <li>
+                            <a href=""> Contact Us <i class="fa-solid fa-angle-down"></i> </a>
 
-                            <li><a class="" href="#"> <span>for local crytherapy</span>  <span><i class="fa-solid fa-angle-down"></i></span></a></li>
+                                <!-- hover -->
 
-                            <li><a class="" href="#"> <span>for local crytherapy</span>  <span><i class="fa-solid fa-angle-down"></i></span></a></li>
+                                <ul class="header_Hover_menu header_Hover_menu_contact">
+                                    <li><a class="" data-bs-toggle="dropdown" href="#"> <span>Madicel cryo  chambers</span> <span><i class="fa-solid fa-angle-down"></i></span> </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another</a></li>
+                                            <li><a class="dropdown-item" href="#">Something</a></li>
+                                            <li><a class="dropdown-item" href="#">Separated</a></li>
+                                        </ul>                                  
+                                    </li>
 
-                            <li><a class="" href="#">Dewar vessels</a></li>
-                          </ul>
-                    </li>
+                                    <li><a class="" href="#" data-bs-toggle="dropdown"><span>for local crytherapy</span>  <span><i class="fa-solid fa-angle-down"></i></span></a>
+                                    
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another</a></li>
+                                            <li><a class="dropdown-item" href="#">Something</a></li>
+                                            <li><a class="dropdown-item" href="#">Separated</a></li>
+                                        </ul>  
+                                    </li>
 
-                    <!-- item -->
-                    <li class="nav-item nav_item_haeder">
-                        <a href="" class="nav-link" data-bs-toggle="dropdown"> In stock <i class="fa-solid fa-angle-down"></i> </a>
+                                    <li><a class="" href="#" data-bs-toggle="dropdown"> <span>for local crytherapy</span>  <span><i class="fa-solid fa-angle-down"></i></span></a>
+                                    
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another</a></li>
+                                            <li><a class="dropdown-item" href="#">Something</a></li>
+                                            <li><a class="dropdown-item" href="#">Separated</a></li>
+                                        </ul>  
+                                    </li>
+                                    
+                                    <li><a class="" href="#" data-bs-toggle="dropdown"> <span>for local crytherapy</span>  <span><i class="fa-solid fa-angle-down"></i></span></a>
+                                    
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another</a></li>
+                                            <li><a class="dropdown-item" href="#">Something</a></li>
+                                            <li><a class="dropdown-item" href="#">Separated</a></li>
+                                        </ul>
 
-                          <ul class="dropdown-menu">
-                            <li><a class="" href="#"> <span>Madicel cryo  chambers</span> <span><i class="fa-solid fa-angle-down"></i></span> </a></li>
+                                    </li>
 
-                            <li><a class="" href="#"><span>for local crytherapy</span>  <span><i class="fa-solid fa-angle-down"></i></span></a></li>
+                                    <li><a class="" href="#">Dewar vessels</a></li>
+                                </ul>
 
-                            <li><a class="" href="#"> <span>for local crytherapy</span>  <span><i class="fa-solid fa-angle-down"></i></span></a></li>
-                            
-                            <li><a class="" href="#"> <span>for local crytherapy</span>  <span><i class="fa-solid fa-angle-down"></i></span></a></li>
+                        </li>
+    
+                    </ul>
+                </div>
 
-                            <li><a class="" href="#">Dewar vessels</a></li>
-                          </ul>
-                    </li>
 
-                    <!-- item -->
-                    <li class="nav-item nav_item_haeder">
-                        <a href="" class="nav-link" data-bs-toggle="dropdown"> Service <i class="fa-solid fa-angle-down"></i> </a>
 
-                        <ul class="dropdown-menu">
-                            <li><a class="" href="#"> <span>Madicel cryo  chambers</span> <span><i class="fa-solid fa-angle-down"></i></span> </a></li>
+                <!-- mobile toggoler -->
 
-                            <li><a class="" href="#"><span>for local crytherapy</span>  <span><i class="fa-solid fa-angle-down"></i></span></a></li>
+                <div class="mobile_toggoler" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
 
-                            <li><a class="" href="#"> <span>for local crytherapy</span>  <span><i class="fa-solid fa-angle-down"></i></span></a></li>
-                            
-                            <li><a class="" href="#"> <span>for local crytherapy</span>  <span><i class="fa-solid fa-angle-down"></i></span></a></li>
+                <!-- mobile nav -->
+                <div class="mobile_nav_sidebar offcanvas offcanvas-end" id="offcanvasRight">
+                    <div class="sidebar_content">
+                        <div class="sidebar_wrapper">
+                            <!-- logo -->
+                             <div class="sidebar_header_logo">
+                                 <img src="assets/image/headerlogo-removebg-preview.png" alt="">
+                             </div>
 
-                            <li><a class="" href="#">Dewar vessels</a></li>
-                          </ul>
-                    </li>
+                             <!-- sidebar nav -->
+                             <div class="sidebar_nav">
+                                 <ul>
+                                     <li><a href=""><span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
+                                            <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"/>
+                                        </svg>
+                                    </span></a></li>
 
-                    <!-- item -->
-                    <li class="nav-item nav_item_haeder">
-                        <a href="" class="nav-link" data-bs-toggle="dropdown"> Info <i class="fa-solid fa-angle-down"></i> </a>
+                                    <li><a href="">Products and pricing</a></li>
 
-                        <ul class="dropdown-menu">
-                            <li><a class="" href="#"> <span>Madicel cryo  chambers</span> <span><i class="fa-solid fa-angle-down"></i></span> </a></li>
+                                    <li><a href="">In stock</a></li>
 
-                            <li><a class="" href="#"><span>for local crytherapy</span>  <span><i class="fa-solid fa-angle-down"></i></span></a></li>
+                                    <li><a href="">Service</a></li>
 
-                            <li><a class="" href="#"> <span>for local crytherapy</span>  <span><i class="fa-solid fa-angle-down"></i></span></a></li>
-                            
-                            <li><a class="" href="#"> <span>for local crytherapy</span>  <span><i class="fa-solid fa-angle-down"></i></span></a></li>
+                                    <li><a href="">Info</a></li>
 
-                            <li><a class="" href="#">Dewar vessels</a></li>
-                          </ul>
-                    </li>
+                                    <li><a href="">About Us</a></li>
 
-                    <!-- item -->
-                    <li class="nav-item nav_item_haeder">
-                        <a href="" class="nav-link" data-bs-toggle="dropdown"> about us  </a>
-                    </li>
-
-                    <!-- item -->
-                    <li class="nav-item nav_item_haeder">
-                        <a href="" class="nav-link" data-bs-toggle="dropdown"> Contact Us <i class="fa-solid fa-angle-down"></i> </a>
-
-                        <ul class="dropdown-menu">
-                            <li><a class="" href="#"> <span>Madicel cryo  chambers</span> <span><i class="fa-solid fa-angle-down"></i></span> </a></li>
-
-                            <li><a class="" href="#"><span>for local crytherapy</span>  <span><i class="fa-solid fa-angle-down"></i></span></a></li>
-
-                            <li><a class="" href="#"> <span>for local crytherapy</span>  <span><i class="fa-solid fa-angle-down"></i></span></a></li>
-                            
-                            <li><a class="" href="#"> <span>for local crytherapy</span>  <span><i class="fa-solid fa-angle-down"></i></span></a></li>
-
-                            <li><a class="" href="#">Dewar vessels</a></li>
-                          </ul>
-                    </li>
-
-                </ul>
+                                    <li><a href="">Contact Us</a></li>
+                                 </ul>
+                             </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
@@ -158,50 +290,41 @@
     =========================================
     -->
 
-    <section class="banner_section carousel slide" id="bannersliderIndecators">
+    <section class="banner_section">
         <!-- slider -->
-        <div class="banner_slider carousel-inner">
+        <div class="banner_slider">
             <!-- image -->
-            <div class="banner_slider_1 carousel-item active">
+            <div class="banner_slider_1">
                 <img class="w-100" src="assets/image/frizz/banner_1.png" alt="">
             </div>
 
             <!-- image -->
-            <div class="banner_slider_1 carousel-item">
+            <div class="banner_slider_1">
                 <img class="w-100" src="assets/image/frizz/banner_1.png" alt="">
             </div>
 
             <!-- image -->
-            <div class="banner_slider_1 carousel-item">
+            <div class="banner_slider_1">
                 <img class="w-100" src="assets/image/frizz/banner_1.png" alt="">
             </div>
 
             <!-- image -->
-            <div class="banner_slider_1 carousel-item">
+            <div class="banner_slider_1">
                 <img class="w-100" src="assets/image/frizz/banner_1.png" alt="">
             </div>
 
             <!-- image -->
-            <div class="banner_slider_1 carousel-item">
+            <div class="banner_slider_1">
                 <img class="w-100" src="assets/image/frizz/banner_1.png" alt="">
             </div>
-            
+
             <!-- image -->
-            <div class="banner_slider_1 carousel-item">
+            <div class="banner_slider_1">
                 <img class="w-100" src="assets/image/frizz/banner_1.png" alt="">
             </div>
+
         </div>
 
-        <div class="banner_slider_buttton">
-            <ul>
-                <li class="active" data-bs-target="#bannersliderIndecators" data-bs-slide-to="0"></li>
-                <li data-bs-target="#bannersliderIndecators" data-bs-slide-to="1"></li>
-                <li data-bs-target="#bannersliderIndecators" data-bs-slide-to="2"></li>
-                <li data-bs-target="#bannersliderIndecators" data-bs-slide-to="3"></li>
-                <li data-bs-target="#bannersliderIndecators" data-bs-slide-to="4"></li>
-                <li data-bs-target="#bannersliderIndecators" data-bs-slide-to="5"></li>
-            </ul>
-        </div>
     </section>
 
     <!--
@@ -226,7 +349,8 @@
                         <div class="quality_item_image pb-4">
                             <img class="w-100 d-block" src="assets/image/warenty/Untitled-1-removebg-preview (2).png" alt="">
                         </div>
-                        <div class="quality_item_content text-center">All cryosauna Components are Coverd By a 3-Years / 6000 session Warranty</div>
+                        <div class="quality_item_content text-center">The Cryosauna is equipped with our
+                            innovative safety feature: the <a href="" style="color: var(--firstColor);">Accident Prevention System</a> </div>
                     </div>
                 </div>
 
@@ -246,7 +370,8 @@
                         <div class="quality_item_image pb-4">
                             <img class="w-100 d-block" src="assets/image/warenty/safty-3-removebg-preview.png" alt="">
                         </div>
-                        <div class="quality_item_content text-center">All cryosauna Components are Coverd By a 3-Years / 6000 session Warranty</div>
+                        <div class="quality_item_content text-center">Customize the Cryosauna with your own logo
+                            and your choice of size and <a href="" style="color: var(--firstColor);">color</a></div>
                     </div>
                 </div>
             </div>
@@ -345,9 +470,9 @@
                                 <img class="d-block w-100" src="assets/image/service/global-1-removebg-preview.png" alt="">
                             </div>
 
-                            <p class="service_item_content">17 Years Of Cooperation</p>
+                            <p class="service_item_content">71 countries all around the world</p>
 
-                            <p class="service_item_content_text">During this time We have deploped varius Methods To improve our Products</p>
+                            <p class="service_item_content_text">Our products are used all over the world, which demonstrates their high quality</p>
                         </div>
                     </div>
 
@@ -357,9 +482,10 @@
                                 <img class="d-block w-100" src="assets/image/service/hand2-1-removebg-preview.png" alt="">
                             </div>
 
-                            <p class="service_item_content">17 Years Of Cooperation</p>
+                            <p class="service_item_content">1632 satisfied customers</p>
 
-                            <p class="service_item_content_text">During this time We have deploped varius Methods To improve our Products</p>
+                            <p class="service_item_content_text">More important than the numbers for us is to
+                                satisfy our customers with our services.</p>
                         </div>
                     </div>
                     
@@ -380,7 +506,7 @@
     =========================================
     -->
 
-    <section class="health_section">
+    <section class="health_section section-padding">
         <div class="container">
             <div class="health_section_content">
                 <div class="row">
@@ -609,7 +735,7 @@
     =========================================
     -->
 
-    <section class="certificettwo_section">
+    <section class="certificettwo_section section-padding">
         <div class="container">
 
             <div class="certificet_content_item">
@@ -844,6 +970,8 @@
     -->
 
     
+
+    
     <!--
     =========================================
         Start Footer section
@@ -875,8 +1003,8 @@
                           <div class="contact_left_content_item">
                               <div class="footer_item_text" >
                                   <p style="color: #f5e3e3; border-bottom: 1px solid #6d6f72;">info@cryomed.net</p>
-                                  <p>Odessa, Fl 335656</p>
-                                  <p>Odessa, Fl 335656</p>
+                                  <p>(844) 429-2796</p>
+                                  <p>(727) 645-4566</p>
                               </div>
   
                           </div>
@@ -896,11 +1024,11 @@
                     <div class="footer_nav_item">
                         <ul>
                             <h4 class="nav_item_title">Products</h4>
-                            <li><a href="">Lorem ipsum dolor</a></li>
-                            <li><a href="">Lorem ipsum dolor</a></li>
-                            <li><a href="">Lorem ipsum dolor</a></li>
-                            <li><a href="">Lorem ipsum dolor</a></li>
-                            <li><a href="">Lorem ipsum dolor</a></li>
+                            <li><a href="">Cryolipolysis EMS</a></li>
+                            <li><a href="">Whole Body Cryotherapy</a></li>
+                            <li><a href="">Electric cryotherapy chamber</a></li>
+                            <li><a href="">Nitrogen cryotherapy chamber</a></li>
+                            <li><a href="">Local cryotherapyr</a></li>
                         </ul>
                     </div>
                 </div>
@@ -909,11 +1037,10 @@
                     <div class="footer_nav_item">
                         <ul>
                             <h4 class="nav_item_title">about</h4>
-                            <li><a href="">Lorem</a></li>
-                            <li><a href="">Lorem</a></li>
-                            <li><a href="">Lorem</a></li>
-                            <li><a href="">Lorem</a></li>
-                            <li><a href="">Lorem</a></li>
+                            <li><a href="">About us</a></li>
+                            <li><a href="">Financing</a></li>
+                            <li><a href="">Insurance</a></li>
+                            <li><a href="">Contact</a></li>
                         </ul>
                     </div>
 
@@ -923,11 +1050,10 @@
                     <div class="footer_nav_item">
                         <ul>
                             <h4 class="nav_item_title">Info</h4>
-                            <li><a href="">Lorem ipsum dolor</a></li>
-                            <li><a href="">Lorem ipsum dolor</a></li>
-                            <li><a href="">Lorem ipsum dolor</a></li>
-                            <li><a href="">Lorem ipsum dolor</a></li>
-                            <li><a href="">Lorem ipsum dolor</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                            <li><a href=""> Anti Spam</a></li>
+                            <li><a href="">Copyright Notice</a></li>
+                            <li><a href="">Terms & Conditions</a></li>
                         </ul>
                     </div>
                 </div>
@@ -950,5 +1076,37 @@
            type: 'iframe'
           });
     </script>
+
+    <!-- slick slider -->
+    <script src="assets/js/slick.min.js"></script>
+
+    <script>
+        $('.banner_slider').slick({
+            dots: true,
+            autoplay: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 1,
+            adaptiveHeight: true,
+            arrows: false
+        });
+    </script>
+
+    <!-- scroll -->
+   <script src="assets/js/jquery.scrollUp.min.js"></script>
+
+   <script>
+         $.scrollUp({
+        scrollName: 'scrollUp', // Element ID
+        topDistance: '300', // Distance from top before showing element (px)
+        topSpeed: 300, // Speed back to top (ms)
+        animation: 'fade', // Fade, slide, none
+        animationInSpeed: 200, // Animation in speed (ms)
+        animationOutSpeed: 200, // Animation out speed (ms)
+        scrollText: '<i class="fa-solid fa-angle-up"></i>', // Text for element
+        activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+        });
+   </script>
+
 </body>
 </html>
